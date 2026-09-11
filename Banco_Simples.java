@@ -169,7 +169,7 @@ public class Banco_Simples {
 
             if (retirada < 0 || retirada > saldo){
                 System.out.println("---------------------");
-                System.out.println("Valor inválido");
+                System.out.println("Valor inválido/Insuficiente");
                 System.out.println("Saldo atual: R$"+saldo);
                 System.out.println("---------------------");
                 voltar(leia);
@@ -195,7 +195,7 @@ public class Banco_Simples {
         System.out.println("----------------------------");
         System.out.println("Seu saldo atual: R$"+saldo);
         System.out.println("----------------------------");
-        System.out.println("Digite qualquer coisa e aprte ENTER");
+        System.out.println("Digite qualquer coisa e aperte ENTER");
         leia.next();
 
 
@@ -293,7 +293,7 @@ public class Banco_Simples {
 
             if (pix < 0 || pix > saldo) {
                 System.out.println("---------------------");
-                System.out.println("Valor inválido");
+                System.out.println("Valor inválido/Insuficiente");
                 System.out.println("Saldo atual: R$" + saldo);
                 System.out.println("---------------------");
                 voltar(leia);
